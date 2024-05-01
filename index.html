@@ -1,905 +1,491 @@
-<!doctype html>
-<html lang="cn">
-<head><!---------头文件--------->
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>DKTEM解释分析系统</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!--link rel="stylesheet" href="vendors/linericon/style.css"-->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!--link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css"-->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!--link rel="stylesheet" href="vendors/nice-select/css/nice-select.css"-->
-	<!--link rel="stylesheet" href="vendors/animate-css/animate.css"-->
-	<!--link rel="stylesheet" href="vendors/flaticon/flaticon.css"-->
-	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<link rel="icon" href="imgs/favicon.png" type="image/png">
+<title>DKTEM解释分析系统</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="css/bootstrap.css" media="screen">
+<link rel="stylesheet" href="skins/eden.css" media="screen">
+<link rel="stylesheet" href="style.css" media="screen">
+<link href="fonts/icons/icons.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
 </head>
-
-<body>
-
-	<!--================Header Menu Area =================-->
-	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="app.html"><img src="img/logo.png" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-center">
-							<li class="nav-item active"><a class="nav-link" href="app.html">软件下载&nbsp;</a></li>
-							<li class="nav-item"><a class="nav-link" href="http://www.dkgeo.cn">地科官网&nbsp;</a></li>
-							<!--注释部分页面
-                            <li class="nav-item"><a class="nav-link" href="features.html">特征&nbsp;</a></li>
-							<li class="nav-item"><a class="nav-link" href="price.html">Pricing</a></li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
-                             -->
-							<li class="nav-item"><a class="nav-link" href="http://www.dkgeo.cn/?about_11/">联系我们&nbsp;</a></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-						  <li class="nav-item"><a href="http://www.dkgeo.cn/share/DKTEM_Analysis_System.zip" class="primary_btn text-uppercase">立即下载</a></li>
-					  </ul>
-				  </div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!--================Header Menu Area =================-->
-
-	<!--================Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="banner_inner">
-			<div class="container">
-				<!--================banner =================-->
-				
-				<div class="row">
-					<!--================下载banner=================-->
-					<div class="col-lg-5">
-						<div class="banner_content">
-							<h2>DKTEM 解释分析系统&nbsp; <br>  Interpreting Software</h2>
-							<p>最新版本：V2.4.319.121&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;精简处理流程，高效快捷交互操作方式，支持二维、三维自动成图，成果自动地形校正，成果切片&nbsp; &nbsp;</p>
-							<!-- 视频按钮-->
-							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="http://www.dkgeo.cn/share/DKTEM_Analysis_System.zip"><span>&nbsp;&nbsp;下载新版&nbsp;&nbsp;</span></a>
-								<!-- 按钮
-								<a id="play-home-video" class="video-play-button" href="">
-									<span></span>
-								</a>
-								<div class="watch_video text-uppercase">
-						      观看视频&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
-								<!-- 按钮结束 -->
-						  </div>
-							<!-- 视频按钮结束 -->
-								
-						</div>
-					</div>
-					<!--================背景图 =================-->
-					<div class="col-lg-7">
-						<div class="home_right_img">
-							<img class="img-fluid" src="img/banner/home-right.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Home Banner Area =================-->
-
-	<!--================Start Features Area =================-->
-	<section class="section_gap features_area">
-		<div class="container">
-			<!--================标题 =================-->
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<p class="top_title">Featured Features</p>
-						<h2>自动化处理解释分析系统</h2>
-						<p>精简处理流程，高效快捷交互操作方式，支持二维、三维自动成图，成果自动地形校正，成果切片</p>
-						<!--<a href="#" class="primary_btn"><span>立即下载</span></a>-->
-					</div>
-				</div>
-			</div>
-			<div class="row align-items-center">
-				<div class="col-lg-6">
-					<div class="left_features">
-						<img class="img-fluid" src="img/f-img.png" alt="">
-					</div>
-				</div>
-				<!--================特征目录 =================-->
-				<div class="col-lg-5 offset-lg-1">
-					<!-- single features -->
-					<div class="single_feature">
-						<div class="feature_head">
-							<span class="lnr lnr-screen"></span>
-							<h4>坏点快速识别剔除&nbsp;</h4>
-						</div>
-						<div class="feature_content">
-							<p>Fast identification of bad data and efficient and convenient processing methods save technicians a lot of time.</p>
-						</div>
-					</div>
-					<!-- single features -->
-					<div class="single_feature">
-						<div class="feature_head">
-							<span class="lnr lnr-screen"></span>
-							<h4>二维三维自动绘图&nbsp;</h4>
-						</div>
-						<div class="feature_content">
-							<p>2D and 3D automatic drawing, efficient and convenient operation method, intuitive display of results.</p>
-						</div>
-					</div>
-					<!-- single features -->
-					<div class="single_feature">
-						<div class="feature_head">
-							<span class="lnr lnr-screen"></span>
-							<h4>复杂切片处理</h4>
-						</div>
-						<div class="feature_content">
-							<p>Slicing Processing of Complex Terrain and Complex Attitude Strata.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Features Area =================-->
-
-	<!--================Recent Update Area =================-->
-	<section class="recent_update_area">		
-		<div class="container">
-			<div class="recent_update_inner">
-				<!--================最外侧框 =================-->
-				
-				<!--================章节目录 =================-->
-				<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-					<li class="nav-item">
-						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-							<span class="lnr lnr-screen"></span>
-							<h6>视频教程</h6>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
-						 <span class="lnr lnr-screen"></span>
-						 <h6>说明文档</h6>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
-						 <span class="lnr lnr-screen"></span>
-						 <h6>历史版本</h6>
-						</a>
-					</li>
-				</ul>				
-				<!--================目录end =================-->
-				<!--================章节内容 =================-->
-				<div class="tab-content" id="myTabContent"><!--整个目录-->
-					
-				<!--================章节1内容 =================-->
-					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><!--章节1-->
-						
-					<!--================章节1标题 =================-->
-						<div class="row recent_update_text align-items-center">
-							<div class="col-lg-5">
-								<div class="common_style">
-									<p class="line">视频列表</p>
-									<h5>点击预览视频（若无法加载画面请切换IE内核）</h5> <br /> <h2>DKTEM使用视频教程</h2>
-									<p>dktem usage video tutorial.</p>
-									<a class="primary_btn" ><span>更新中...</span></a>		
-								
-								</div>
-							</div>
-									<!--================右图 =================-->
-						<div class="col-lg-6">
-								<div class="chart_img">
-									<img class="img-fluid" src="img/chart1.png" alt="">
-								</div>
-						</div>
-						<!--================右图end =================-->
-						</div>
-						<!--================章节1标题end =================-->
-					
-						<!--================增添文件 =================-->
-						<div class="row">
-									 <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM培训现场录制_1软件安装_KEEN.mp4">DKTEM软件安装</a>
-									</div>	
-							  &nbsp;</div>																  
-						<!-- 视频按钮结束 -->
-							
-						    <div class="col-xl-6"> &nbsp;</div>	
-							    <div class="col-xl-6">	<br/><h5>更新 2024/01/23<br/> 珠江委现场交流录屏</h5> &nbsp;</div>	
-							  <div class="col-xl-6"> &nbsp;</div>	
-							
-								 <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM培训现场录制_6基本原理讲解_KEEN.mp4">DKTEM现场录制_1瞬变电磁基本原理NEW</a>
-									</div>	
-							  &nbsp;</div>																  
-						<!-- 视频按钮结束 -->	
-						
-								 <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM培训现场录制_2工勘数据处理_KEEN.mp4">DKTEM现场录制_2地面数据处理NEW</a>
-									</div>	
-							  &nbsp;</div>																  
-						<!-- 视频按钮结束 -->	
-								 <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM培训现场录制_3深度高程校正加地形基面切片处理_KEEN.mp4">DKTEM现场录制_3深度高程校正加地形基面切片处理NEW</a>
-									</div>	
-							  &nbsp;</div>																  
-						<!-- 视频按钮结束 -->
-						 
-								 <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM培训现场录制_4工勘处理三维_KEEN.mp4">DKTEM现场录制_4地面数据三维处理NEW</a>
-									</div>	
-							  &nbsp;</div>																  
-						<!-- 视频按钮结束 -->
-								 <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM培训现场录制_5隧道数据处理二维和三维_KEEN.mp4">DKTEM现场录制_5隧道数据处理二维和三维NEW</a>
-									</div>	
-							  &nbsp;</div>																  
-						<!-- 视频按钮结束 -->
-							
-							   <div class="col-xl-6"> &nbsp;</div>		
-							   <div class="col-xl-6"><br/> <h5>历史录屏</h5> </div>		
-						
-							   <div class="col-xl-6"> </div>		
-							
-							
-							
-							 <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Chen_瞬变电磁原理讲解.mp4">DKTEM瞬变电磁基本原理</a>
-									</div>	
-							  &nbsp;</div>																  
-						<!-- 视频按钮结束 -->
-						    <div class="col-xl-6"> &nbsp;</div>							
-							
-							<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Fantcy_1原始数据基本处理.mp4">DKTEM工勘数据处理-基本处理</a>
-									</div>	
-							  &nbsp;</div>									  
-						<!-- 视频按钮结束 -->					
-							
-							<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Fantcy_2数据整合.mp4">DKTEM工勘数据处理-数据整合</a>
-									</div>		
-							  &nbsp;</div>								  
-						<!-- 视频按钮结束 -->				
-							
-							<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Fantcy_3高程文件制作.mp4">DKTEM工勘数据处理-高程文件制作</a>
-									</div>		
-							  &nbsp;</div>								  
-						<!-- 视频按钮结束 -->
-								<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Fantcy_4电阻率dat调整.mp4">DKTEM工勘数据处理-电阻率dat调整</a>
-									</div>		
-							  &nbsp;</div>								  
-						<!-- 视频按钮结束 -->
-								<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Fantcy_5深度矫正高程矫正地形矫正.mp4">DKTEM工勘数据处理-深度校正高程校正地形校正</a>
-									</div>		
-							  &nbsp;</div>								  
-						<!-- 视频按钮结束 -->
-								<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Fantcy_6二维成图.mp4">DKTEM工勘数据处理-二维成图</a>
-									</div>		
-							  &nbsp;</div>								  
-						<!-- 视频按钮结束 -->
-							<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Fantcy_7三维成图.mp4">DKTEM工勘数据处理-三维成图</a>
-									</div>		
-							  &nbsp;</div>								  
-						<!-- 视频按钮结束 -->
-							<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">
-									<button class="btn btn-outline-danger">
-									<i class="fa fa-video-camera"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Keen_隧道数据处理录屏.mp4">DKTEM隧道数据处理</a>
-									</div>		
-							  &nbsp;</div>								  
-						<!-- 视频按钮结束 -->
-								
-				    	</div>
-							<!--================增添文件end =================-->
-						</div>
-					<!--================章节1内容end =================-->
-					<!--================章节2内容 =================-->
-			     		<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><!--章节2-->
-								<!--================显示标题=================-->
-						<div class="row recent_update_text align-items-center">
-								<div class="col-lg-5">
-											<div class="common_style">
-									<p class="line">文档列表</p>
-									<h5>点击下载文档 <br /> </h5><h2>DKTEM使用相关文档</h2>
-									<p>dktem usage related documents.</p>
-									<a class="primary_btn"><span>更新中...</span></a>
-								</div>
-								</div>
-							<!--================显示图片=================-->
-								<div class="col-lg-6">
-										<div class="chart_img">
-									<img class="img-fluid" src="img/chart2.png" alt="">
-										</div>
-								</div>
-								<!--================显示图片end=================-->
-						</div>
-								<!--================显示图片=================-->
-								<!--================添加文件=================-->
-						<div class="row">
-											<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">								
-									<button class="btn btn-outline-success">
-									<i class="fa fa-book"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM解释分析系统使用说明书.pdf">DKTEM解释分析系统使用说明书</a>
-									</div>														
-						<!-- 视频按钮结束 -->
-							  &nbsp;</div>
-							
-						    <div class="col-xl-6"> &nbsp;</div>
-							 <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">								
-									<button class="btn btn-outline-success">
-									<i class="fa fa-book"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM-18瞬变电磁仪说明书.pdf">DKTEM-18瞬变电磁仪说明书</a>
-									</div>										  
-						<!-- 视频按钮结束 -->
-							  &nbsp;</div>
-						 		 
-							<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">								
-									<button class="btn btn-outline-success">
-									<i class="fa fa-book"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM-20瞬变电磁自动超前探水系统说明书.pdf">DKTEM-20瞬变电磁自动超前探水系统说明书</a>
-									</div>										  
-						<!-- 视频按钮结束 -->
-							  &nbsp;</div>
-									<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">								
-									<button class="btn btn-outline-success">
-									<i class="fa fa-book"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/YCS180矿用本安型瞬变电磁仪说明书.pdf">YCS180矿用本安型瞬变电磁仪说明书</a>
-									</div>										  
-						<!-- 视频按钮结束 -->
-							  &nbsp;</div>
-							
-									<div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">								
-									<button class="btn btn-outline-success">
-									<i class="fa fa-book"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/YCS180+YCS100-F矿用本安型瞬变电磁仪说明书.pdf">YCS180+YCS100-F矿用本安型瞬变电磁仪说明书</a>
-									</div>										  
-						<!-- 视频按钮结束 -->
-							  &nbsp;</div>
-								
-				   		</div>
-								<!--================添加文件end=================-->
-					</div>
-					<!--================章节2内容end =================-->
-					<!--================章节3内容 =================-->
-			      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><!--章节3-->
-					  <!--================章节3标题 =================-->
-					<div class="row recent_update_text align-items-center">
-									<div class="col-lg-5"><!---------显示版本列表表头--------->
-										<div class="common_style">
-									<p class="line">版本列表</p>
-									<h5>点击下载软件</h5> <br/> <h2>历史版本软件列表</h2>
-									<p>historical version software list.</p>
-									<a class="primary_btn"><span>更新中...</span></a>
-										</div>
-								
-									</div>
-						<!--================右图 =================-->
-									<div class="col-lg-6 text-right"><!---------显示右图片--------->
-										<div class="chart_img">
-									<img class="img-fluid" src="img/chart3.png" alt="">
-								</div>
-									</div>
-						<!--================右图end =================-->
-						</div>
-					  <!--================章节3标题end =================-->
-					  <div class="row">
-						  <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">								
-									<button class="btn btn-outline-info">
-									<i class="fa fa-windows"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Analysis_SystemV2.4.100.103_setup.zip">DKTEM解释分析系统V2.4.100.103_setup</a>
-									</div>										  
-						<!-- 视频按钮结束 -->
-							  &nbsp;</div>
-						    <div class="col-xl-6"> &nbsp;</div>
-						    <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">								
-									<button class="btn btn-outline-info">
-									<i class="fa fa-windows"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/DKTEM_Analysis_SystemV2.3.122.106_setup.zip">DKTEM解释分析系统V2.3.122.106_setup</a>
-									</div>										  
-						<!-- 视频按钮结束 -->
-							  &nbsp;</div>
-						    <div class="col-xl-6"> <!-- 视频按钮 -->
-								<div class="d-flex align-items-center">								
-									<button class="btn btn-outline-info">
-									<i class="fa fa-windows"></i></button>
-									&nbsp; &nbsp; 
-						     		 <a target="_blank" href="http://www.dkgeo.cn/share/MCR_R2013a_win32_installer.exe">MCR_R2013a_win32_installer(切片软件运行库)</a>
-									</div>										  
-						<!-- 视频按钮结束 -->
-							  &nbsp;</div>
-					
-				    	</div>
-					</div>
-					<!--================章节3内容end =================-->
-				</div>				
-				<!--================章节内容 =================-->
-				<!--================最外侧框end =================-->
-			</div>
-		</div>
-	</section>
-	<!--================ Recent Update Area =================-->
-
-	<!--================Start Big Features Area =================-->
-	<!--规格特征
-	<section class="section_gap big_features">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<p class="top_title">规格特征</p>
-						<h2>Amazing Features That make it Awesome!</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row features_content">
-				<div class="col-lg-4 offset-lg-1">
-					<div class="big_f_left">
-						<img class="img-fluid" src="img/f-img1.png" alt="">
-					</div>
-				</div>
-				<div class="col-lg-4 offset-lg-2">
-					<div class="common_style">
-						<p class="line">Modern Daesign Trends</p>
-						<h3>We Believe that <br /> Inner beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that as women.</p>
-						<a class="primary_btn" href="#"><span>Learn More</span></a>
-					</div>
-				</div>
-				<div class="border-line"></div>
-				<img class="shape1"src="img/shape1.png" alt="">		
-				<img class="shape2"src="img/shape2.png" alt="">		
-				<img class="shape3"src="img/shape1.png" alt="">		
-			</div>
-
-			<div class="row features_content bottom-features">
-				<div class="col-lg-5">
-					<div class="common_style">
-						<p class="line">Modern Daesign Trends</p>
-						<h3>We Believe that <br /> Inner beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that as women.</p>
-						<a class="primary_btn" href="#"><span>Learn More</span></a>
-					</div>
-				</div>
-				<div class="col-lg-5 offset-lg-2">
-					<div class="big_f_left">
-						<img class="img-fluid" src="img/f-img2.png" alt="">
-					</div>
-				</div>
-				<div class="border-line"></div>
-				<img class="shape1"src="img/shape1.png" alt="">		
-				<img class="shape2"src="img/shape2.png" alt="">		
-				<img class="shape3"src="img/shape1.png" alt="">		
-			</div>
-		</div>
-	</section>
--->
-	<!--================End Big Features Area =================-->
+<body   data-spy="scroll" data-target="#topnav"  id="top">
+<section class="header-area-home" id="header-area-home">
+  <div id="main-nav-container">
+    <div  class="container">
+      <nav class="navbar navbar-eden" id="topnav">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#main-menu"> <span class="sr-only">Toggle navigation</span> <i class="tn-menu"></i> </button>
+            <a class="navbar-brand" href="#"><img src="imgs/keenstudio-logo.png" alt=""/></a> </div>
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#top">主页</a></li>
+              <li><a href="#why-us">产品优势</a></li>
+              <li><a href="#out-team">视频演示</a></li>
+              <li><a href="#client-reviews">软件下载</a></li>
+              <li><a href="#pricing">文档下载</a></li>
+              <li><a href="#curious">联系我们</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#search"><i class="tn-search"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div id="featured-slider-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="featured-slider" class="carousel slide" data-ride="carousel"> 
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#featured-slider" data-slide-to="0" class="active"><img src="imgs/slider-1-t.jpg" alt="" class="featured-slide-thumb"  /></li>
+              <li data-target="#featured-slider" data-slide-to="1" ><img src="imgs/slider-2-t.jpg" alt="" class="featured-slide-thumb"  /></li>
+              <li data-target="#featured-slider" data-slide-to="2" ><img src="imgs/slider-3-t.jpg" alt="" class="featured-slide-thumb"  /></li>
+            </ol>
+            
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active" id="slide-2"> <img src="imgs/slider-3.jpg" alt="" class="featured-slide inv" data-animation = "animated zoomIn" data-delay = "0.3s" /> <img src="imgs/slider-1.jpg" alt="" class="featured-slide featured-slide-1 inv" data-animation = "animated zoomIn" data-delay = "0.7s" />
+                <div class="carousel-caption"> <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">PRETEM解释分析系统</a></span>
+                  <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">DKTEM 解释分析系统  Interpreting Software</h2>
+                  <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">
+                    <ul class="row">
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1s">精简处理流程</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.1s">高效快捷交互操作</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.2s">二维自动成图</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.3s">三维自动成图</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.4s">自动地形校正</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.5s">一键成果切片</li>
+                    </ul>
+                  </div>
+                  <div class="meta">
+                    <button class="btn btn-primary inv slide-btn btn-lg"  data-animation="animated fadeInUp" data-delay="1.8s" data-duration="2s">下载新版 <i class="tn-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="item" id="slide-3"> <img src="imgs/slider-1.jpg" alt="" class="featured-slide inv" data-animation = "animated zoomIn" data-delay = "0.3s" /> <img src="imgs/slider-2.jpg" alt="" class="featured-slide featured-slide-1 inv" data-animation = "animated zoomIn" data-delay = "0.7s" />
+                <div class="carousel-caption"> <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">AutoSlice</a></span>
+                  <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">电磁法工程勘查切片  Interpreting Software</h2>
+                  <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="2s" data-delay="2s">
+                    <ul class="row">
+                     <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1s">精简处理流程</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.1s">高效快捷交互操作</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.2s">二维自动成图</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.3s">三维自动成图</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.4s">自动地形校正</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.5s">一键成果切片</li>
+                    </ul>
+                  </div>
+                  <div class="meta">
+                    <button class="btn btn-info inv slide-btn btn-lg"  data-animation="animated lightSpeedIn" data-delay="1.8s" data-duration="2s">下载新版 <i class="tn-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="item" id="slide-4"> <img src="imgs/slider-2.jpg" alt="" class="featured-slide inv" data-animation = "animated zoomIn" data-delay = "0.3s" /> <img src="imgs/slider-3.jpg" alt="" class="featured-slide featured-slide-1 inv" data-animation = "animated zoomIn" data-delay = "0.7s" />
+                <div class="carousel-caption"> <span class="lead slide-cat inv"  data-animation="animated zoomIn"><a href="#" rel="category">OutCadPoint</a></span>
+                  <h2 class="slide-title inv"  data-animation="animated fadeInUp" data-duration="2s" data-delay="1s">CAD等值线高程抽取  Interpreting Software</h2>
+                  <div class="slide-excerpt inv" data-animation="animated fadeInUp" data-duration="2s" data-delay="2s">
+                    <ul class="row">
+                     <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1s">精简处理流程</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.1s">高效快捷交互操作</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.2s">二维自动成图</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.3s">三维自动成图</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.4s">自动地形校正</li>
+                      <li class="col-lg-6" data-animation = "animated zoomIn" data-delay = "1.5s">一键成果切片</li>
+                    </ul>
+                  </div>
+                  <div class="meta">
+                    <button class="btn btn-danger inv slide-btn btn-lg"  data-animation="animated fadeInUp" data-delay="1.8s" data-duration="2s">下载新版<i class="tn-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 	
-	<!--================Srart Pricing Area =================-->
-	<!--注释 Pricing Area 
-	<section class="price_area section_gap">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<p class="top_title">Features Specifications</p>
-						<h2>Amazing Features That make it Awesome!</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-					</div>
-				</div>
-			</div>
-			<div class="price_inner row justify-content-center">
-				<div class="col-lg-4 col-md-6">
-					<div class="price_item">
-						<div class="price_head">
-							<h4>Real Basic</h4>
-						</div>
-						<div class="price_body">
-							<ul class="list">
-								<li><a href="#">2.5 GB Space</a></li>
-								<li><a href="#">Secure Online Transfer</a></li>
-								<li><a href="#">Unlimited Styles</a></li>
-								<li><a href="#">Customer Service</a></li>
-							</ul>
-						</div>
-						<div class="price_footer">
-							<h3><span class="dlr">$</span> 39</h3>
-							<a class="primary_btn" href="#"><span>Get Started</span></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="price_item">
-						<div class="price_head">
-							<h4>Real Standard</h4>
-						</div>
-						<div class="price_body">
-							<ul class="list">
-								<li><a href="#">10 GB Space</a></li>
-								<li><a href="#">Secure Online Transfer</a></li>
-								<li><a href="#">Unlimited Styles</a></li>
-								<li><a href="#">Customer Service</a></li>
-							</ul>
-						</div>
-						<div class="price_footer">
-							<h3><span class="dlr">$</span> 69</h3>
-							<a class="primary_btn" href="#"><span>Get Started</span></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="price_item">
-						<div class="price_head">
-							<h4>Real Ultimate</h4>
-						</div>
-						<div class="price_body">
-							<ul class="list">
-								<li><a href="#">Unlimited Space</a></li>
-								<li><a href="#">Secure Online Transfer</a></li>
-								<li><a href="#">Unlimited Styles</a></li>
-								<li><a href="#">Customer Service</a></li>
-							</ul>
-						</div>
-						<div class="price_footer">
-							<h3><span class="dlr">$</span> 99</h3>
-							<a class="primary_btn" href="#"><span>Get Started</span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-    -->
-	<!--================End Pricing Area =================-->
-
-	<!--================ Start Testimonial Area =================-->
-	<!--注释 Testimonial Area
-	<div class="section_gap_top testimonial_area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="main_title">
-						<p class="top_title">User Feedback</p>
-						<h2>What Our Clients Say About Us</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-6 text-center">
-					<div class="active_testimonial owl-carousel" data-slider-id="1">
--->
-						<!-- single testimonial -->
 	
-	<!--注释 Testimonial Area
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="img/quote.png" alt="">
-								<h4>Fanny Spencer</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her faceand She is the host to your journey.</p>
-							</div>
-						</div>
-
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="img/quote.png" alt="">
-								<h4>Fanny Spencer</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her faceand She is the host to your journey.</p>
-							</div>
-						</div>
-
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="img/quote.png" alt="">
-								<h4>Fanny Spencer</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her faceand She is the host to your journey.</p>
-							</div>
-						</div>
-
-						<div class="single_testimonial">
-							<div class="testimonial_head">
-								<img src="img/quote.png" alt="">
-								<h4>Fanny Spencer</h4>
-								<div class="review">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-								</div>
-							</div>
-							<div class="testimonial_content">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her faceand She is the host to your journey.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-    -->
-	<!--================ End Testimonial Area =================-->
-
-	<!--================ Srart Brand Area =================-->
-	<!-- Srart Brand Area 
-	<section class="brand_area section_gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="owl-carousel brand-carousel">
-						<!-- single-brand -->
-	<!--
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo1.png" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-	<!--
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo2.png" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-	<!--
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo3.png" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-	<!--
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo4.png" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-	<!--
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo5.png" alt="">
-							</div>
-						</div>
-						<!-- single-brand -->
-	<!--
-						<div class="single-brand-item d-table">
-							<div class="d-table-cell">
-								<img src="img/brands/logo6.png" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-    -->
-	<!--================ End Brand Area =================-->
-
-	<!--================Impress Area =================-->
-	<section class="impress_area">
-		<div class="container">
-			<div class="impress_inner">
-				<h2>使用过程中存在问题建议</h2>
-				<p>Suggestions for problems during use.</p>
-				<a class="primary_btn" href="http://www.dkgeo.cn/?about_11/"><span>联系technical support</span></a>
-			</div>
-		</div>
-	</section>
-	<!--================End Impress Area =================-->
-
-
-	<!--================Footer Area =================-->
-	<footer class="footer_area">
-		<div class="container">
-			<div class="row footer_inner">
-				<div class="col-lg-5 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h3>About Me</h3>
-						</div>
-						<p>特别说明：本程序售卖仅限仪器数据处理部分，部分功能基于Surfer,Voxler库开发，若使用该部分功能请安装相关正版软件，若因版权问题引起的法律纠纷使用者自行负责。&nbsp;&nbsp;</p>
-						<p>Copyright &copy; 2024 KEEN0003&nbsp; All rights reserved.
-                          <!--<a target="_blank" href="http://www.dkgeo.cn">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>-->
-						</p>
-					</aside>
-				</div>
-				
-				<div class="col-lg-5 col-sm-6">
-					<!--
-					<aside class="f_widget news_widget">
-						<div class="f_title">
-							<h3>Newsletter</h3>
-						</div>
-						<p>Stay updated with our latest trends</p>
-						<div id="mc_embed_signup">
-							<form target="_blank" action=""
-							 method="get" class="subscribe_form relative">
-								<div class="input-group d-flex flex-row">
-									<input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
-									 required="" type="email">
-									<button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-								</div>
-								<div class="mt-10 info"></div>
-							</form>
-						</div>
-					</aside>
--->
-</div>
-					
-				
-				<div class="col-lg-2">
-					<aside class="f_widget social_widget">
-						<div class="f_title">
-							<h3>Follow Me</h3>
-						</div>
-						<p>Let us be social</p>
-						<ul class="list">
-							<li><a onclick="alert('Wechat:KEEN0003')"><i class="fa fa-weixin"></i></a></li>
-							<li><a onclick="alert('访问失败！')"><i class="fa fa-weibo"></i></a></li>
-							<li><a href="tencent://message/?uin=120090039&Site=&Menu=yes" target="_blank" class="t-c"><i class="fa fa-qq"></i></a></li>
-							<li><a onclick="alert('访问失败！')"><i class="fa fa-phone"></i></a></li>
-						</ul>
-					</aside>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--================End Footer Area =================-->
-
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<!---<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>--->
-	<script src="js/theme.js"></script>
+<section class="featured-content-area" id="featured-content-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="panel panel-success panel-featured-content  text-center">
+          <div class="panel-heading">TEM解释分析</div>
+          <div class="panel-body">
+            <div class="diamond filled bg-success wow zoomIn" data-wow-delay="500ms"> <i class="lineicon tn-paint-roller"></i> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-info panel-featured-content  text-center">
+          <div class="panel-heading">电磁法工程勘查切片</div>
+          <div class="panel-body">
+            <div class="diamond filled bg-info wow zoomIn" data-wow-delay="900ms" > <i class="lineicon tn-harddrive"></i> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-primary panel-featured-content  text-center">
+          <div class="panel-heading">电磁法成果二维三维自动成图</div>
+          <div class="panel-body">
+            <div class="diamond filled  bg-primary wow zoomIn" data-wow-delay="1300ms" > <i class="lineicon tn-car"></i> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-warning panel-featured-content  text-center">
+          <div class="panel-heading">CAD二次开发</div>
+          <div class="panel-body">
+            <div class="diamond filled bg-warning wow zoomIn" data-wow-delay="1700ms" > <i class="lineicon tn-book"></i> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+	
+<section class="why-us" id="why-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center section-intro">
+        <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>产品优势</span></h2>
+        <p class="lead wow fadeInUp"  data-wow-delay="600ms">精简处理流程，高效快捷交互操作方式，支持二维、三维自动成图，成果自动地形校正，成果切片</p>
+      </div>
+      <div class="col-md-12 highlight-boxes">
+        <div class="col-md-4 wow fadeInLeft" data-wow-delay="500ms">
+          <div class="featured-content-box text-center"> <i class="tn-heart ico-lg text-warning"></i>
+            <h3>坏点快速识别剔除 </h3>
+            <p>Fast identification of bad data and efficient and convenient processing methods.</p>
+            <button class="btn btn-warning">Read More </button>
+          </div>
+        </div>
+        <div class="col-md-4 wow zoomIn" data-wow-delay="100ms">
+          <div class="featured-content-box text-center"> <i class="tn-server ico-lg text-info"></i>
+            <h3>二维三维自动绘图 </h3>
+            <p>2D and 3D automatic drawing, efficient and convenient operation method, intuitive display of results.</p>
+            <button class="btn btn-info">Read More </button>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInRight" data-wow-delay="500ms">
+          <div class="featured-content-box text-center"> <i class="tn-anchor ico-lg text-success"></i>
+            <h3>复杂切片处理 </h3>
+            <p>Slicing Processing of Complex Terrain and Complex Attitude Strata.</p>
+            <button class="btn btn-primary">Read More </button>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInUp">
+          <div class="featured-content-box text-center"> <i class="tn-agenda ico-lg text-danger"></i>
+            <h3>高效快捷交互操作 </h3>
+            <p>Efficient and fast interactive operations.</p>
+            <button class="btn btn-danger">Read More </button>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInUp" data-wow-delay="300ms">
+          <div class="featured-content-box text-center"> <i class="tn-headphone ico-lg text-warning"></i>
+            <h3>精简处理流程 </h3>
+            <p>Streamline processing flow.</p>
+            <button class="btn btn-warning">Read More </button>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInUp" data-wow-delay="600ms">
+          <div class="featured-content-box text-center"> <i class="tn-dashboard ico-lg text-info"></i>
+            <h3>一键成果切片 </h3>
+            <p>One click result slicing.</p>
+            <button class="btn btn-info">Read More </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+	
+<section class="out-team" id="out-team" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center section-intro">
+        <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>视频演示</span></h2>
+        <p class="lead wow fadeInUp"  data-wow-delay="600ms">Usage video tutorial! Let's see some highlights:</p>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="panel panel-default panel-card">
+          <div class="panel-heading"> <img src="imgs/video-1.jpg" alt=""/>
+            <button class="btn btn-primary btn-sm" role="button">Display</button>
+          </div>
+          <div class="panel-body text-center">
+            <h4 class="panel-header"><a href="http://www.dkgeo.cn/share/DKTEM培训现场录制_1软件安装_KEEN.mp4">DKTEM软件安装</a></h4>
+            <small>DKTEM software installation demonstration.</small> </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="panel panel-default panel-card">
+          <div class="panel-heading"> <img src="imgs/video-1.jpg" alt=""/>
+            <button class="btn btn-primary btn-sm" role="button">Display</button>
+          </div>
+          <div class="panel-body text-center">
+            <h4 class="panel-header"><a href="http://www.dkgeo.cn/share/DKTEM培训现场录制_1软件安装_KEEN.mp4">DKTEM软件安装</a></h4>
+            <small>A short description goes here.</small> </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="panel panel-default panel-card">
+          <div class="panel-heading"> <img src="imgs/video-1.jpg" alt=""/>
+            <button class="btn btn-primary btn-sm" role="button">Display</button>
+          </div>
+          <div class="panel-body text-center">
+            <h4 class="panel-header"><a href="http://www.dkgeo.cn/share/DKTEM培训现场录制_1软件安装_KEEN.mp4">DKTEM软件安装</a></h4>
+            <small>A short description goes here.</small> </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="panel panel-default panel-card row2">
+          <div class="panel-heading"> <img src="imgs/video-1.jpg" alt=""/>
+            <button class="btn btn-primary btn-sm" role="button">Display</button>
+          </div>
+          <div class="panel-body text-center">
+            <h4 class="panel-header"><a href="http://www.dkgeo.cn/share/DKTEM培训现场录制_1软件安装_KEEN.mp4">DKTEM软件安装</a></h4>
+            <small>A short description goes here.</small> </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="panel panel-default panel-card row2">
+          <div class="panel-heading"> <img src="imgs/video-1.jpg" alt=""/>
+            <button class="btn btn-primary btn-sm" role="button">Display</button>
+          </div>
+          <div class="panel-body text-center">
+            <h4 class="panel-header"><a href="http://www.dkgeo.cn/share/DKTEM培训现场录制_1软件安装_KEEN.mp4">DKTEM软件安装</a></h4>
+            <small>A short description goes here.</small> </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="panel panel-default panel-card row2">
+          <div class="panel-heading"> <img src="imgs/video-1.jpg" alt=""/>
+            <button class="btn btn-primary btn-sm" role="button">Display</button>
+          </div>
+          <div class="panel-body text-center">
+            <h4 class="panel-header"><a href="http://www.dkgeo.cn/share/DKTEM培训现场录制_1软件安装_KEEN.mp4">DKTEM软件安装</a></h4>
+            <small>A short description goes here.</small> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+	
+<section class="client-reviews" id="client-reviews">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center section-intro">
+        <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>软件下载</span></h2>
+        <p class="lead wow fadeInUp" data-wow-delay="200ms">Historical version software list. Let's see some highlights:</p>
+      </div>
+      <div class="col-md-4">
+        <div class="speach"> DKTEM 解释分析系统 Interpreting Software运行库.
+          <div class="media person">
+            <div class="pull-left"> <img src="imgs/favicon.png" alt="" class="img-circle"> </div>
+            <div class="media-body"> <a href="http://www.dkgeo.cn/share/DKTEM培训现场录制_1软件安装_KEEN.mp4">DKTEM解释分析系统</a><br/>
+              <b> DKTEM Interpreting Software</b> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="speach"> DKTEM 解释分析系统 Interpreting Software运行库.
+          <div class="media person">
+            <div class="pull-left"> <img src="imgs/favicon.png" alt="" class="img-circle"> </div>
+            <div class="media-body"> <a href="http://www.dkgeo.cn/share/DKTEM培训现场录制_1软件安装_KEEN.mp4">DKTEM解释分析系统</a><br/>
+              <b> DKTEM Interpreting Software</b> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="speach"> DKTEM 解释分析系统 Interpreting Software运行库.
+          <div class="media person">
+            <div class="pull-left"> <img src="imgs/favicon.png" alt="" class="img-circle"> </div>
+            <div class="media-body"> <a href="http://www.dkgeo.cn/share/DKTEM培训现场录制_1软件安装_KEEN.mp4">DKTEM解释分析系统</a><br/>
+              <b> DKTEM Interpreting Software</b> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+	
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center section-intro">
+        <h2 class="header-boxed  wow zoomIn" data-wow-iteration="1"><span>文档下载</span></h2>
+        <p class="lead wow fadeInUp" data-wow-delay="200ms">Usage related documents. Let's see some highlights:</p>
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-6 pricing-table-block wow fadeInLeft">
+          <div class="col-md-6 tb-left text-center">
+            <h5 class="text-light">Instructions</h5>
+            <h4>DKTEM解释分析系统使用说明书</h4>
+            <p><i class="tn-star text-primary"></i><i class="tn-star text-primary"></i><i class="tn-star text-primary"></i><i class="tn-star text-primary"></i><i class="tn-star text-primary"></i></p>
+            <p class="pac-info">Product features and usage methods</p>
+            <button class="btn btn-default">下 载</button>
+          </div>
+          <div class="col-md-6 tb-right">
+            <ul class="list-group">
+              <li class="list-group-item"><i class="tn-server"></i> Section 1</li>
+              <li class="list-group-item"><i class="tn-download"></i> Section 2</li>
+              <li class="list-group-item"><i class="tn-harddrives"></i> Section 3</li>
+              <li class="list-group-item"><i class="tn-email"></i> Section 4</li>
+              <li class="list-group-item"><i class="tn-user"></i> Section 5</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 pricing-table-block wow fadeInRight">
+          <div class="col-md-6 tb-left text-center">
+            <h5 class="text-info">Instructions</h5>
+            <h4>DKTEM解释分析系统使用说明书</h4>
+            <p><i class="tn-star text-info"></i><i class="tn-star text-info"></i><i class="tn-star text-info"></i><i class="tn-star  text-info"></i><i class="tn-star  text-info"></i></p>
+            <p class="pac-info">Product features and usage methods</p>
+            <button class="btn btn-info">下 载</button>
+          </div>
+          <div class="col-md-6 tb-right">
+            <ul class="list-group">
+              <li class="list-group-item"><i class="tn-server"></i> Section 1</li>
+              <li class="list-group-item"><i class="tn-download"></i> Section 2</li>
+              <li class="list-group-item"><i class="tn-harddrives"></i> Section 3</li>
+              <li class="list-group-item"><i class="tn-email"></i> Section 4</li>
+              <li class="list-group-item"><i class="tn-user"></i> Section 5</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 pricing-table-block wow fadeInUp" data-wow-delay="100ms">
+          <div class="col-md-6 tb-left text-center">
+            <h5 class="text-warning">Instructions</h5>
+            <h4>DKTEM解释分析系统使用说明书</h4>
+            <p><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i><i class="tn-star text-warning"></i></p>
+            <p class="pac-info">Product features and usage methods</p>
+            <button class="btn btn-warning">下 载</button>
+          </div>
+          <div class="col-md-6 tb-right">
+            <ul class="list-group">
+              <li class="list-group-item"><i class="tn-server"></i> Section 1</li>
+              <li class="list-group-item"><i class="tn-download"></i> Section 2</li>
+              <li class="list-group-item"><i class="tn-harddrives"></i> Section 3</li>
+              <li class="list-group-item"><i class="tn-email"></i> Section 4</li>
+              <li class="list-group-item"><i class="tn-user"></i> Section 5</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 pricing-table-block wow fadeInUp" data-wow-delay="200ms">
+          <div class="col-md-6 tb-left text-center">
+            <h5 class="text-success">Instructions</h5>
+            <h4>DKTEM解释分析系统使用说明书</h4>
+            <p><i class="tn-star text-success"></i><i class="tn-star  text-success"></i><i class="tn-star  text-success"></i><i class="tn-star  text-success"></i><i class="tn-star  text-success"></i></p>
+            <p class="pac-info">Product features and usage methods</p>
+            <button class="btn btn-primary">下 载</button>
+          </div>
+          <div class="col-md-6 tb-right">
+            <ul class="list-group">
+              <li class="list-group-item"><i class="tn-server"></i> Section 1</li>
+              <li class="list-group-item"><i class="tn-download"></i> Section 2</li>
+              <li class="list-group-item"><i class="tn-harddrives"></i> Section 3</li>
+              <li class="list-group-item"><i class="tn-email"></i> Section 4</li>
+              <li class="list-group-item"><i class="tn-user"></i> Section 5</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+	
+<section class="curious" id="curious">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center section-intro">
+        <h2 class="header-boxed wow zoomIn" data-wow-iteration="1"><span>联系我们</span></h2>
+        <p class="lead">Suggestions for problems during use.</p>
+      </div>
+		
+      <div class="col-md-6">
+        <div class="contact-form wow fadeInLeft">
+          <form class="row" method="get" action="">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>姓名：<i class="fa fa-asterisk"></i></label>
+                <input type="text" name="name" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>邮箱：<i class="fa fa-asterisk"></i></label>
+                <input type="email" name="email" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label>建议：</label>
+                <textarea name="message" rows="6" class="form-control"></textarea>
+              </div>
+              <div class="send_result"></div>
+            </div>
+            <div class="col-md-12">
+              <input type="submit" value="发送" class="btn btn-primary btn-lg btn-block" name="submit">
+            </div>
+          </form>
+        </div>
+      </div>
+		
+      <div class="col-md-3">
+        <div class="featured-content-box text-center wow fadeInDown">
+          <div class="circle feature-icon"> <i class="tn-mobile"></i> </div>
+          <h3>Wechat</h3>
+          <p>KEEN0003</p>
+        </div>
+        <div class="featured-content-box text-center wow fadeInUp">
+          <div class="circle feature-icon"> <i class="tn-email"></i> </div>
+          <h3>Email</h3>
+          <p>wkeen@qq.com</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-default panel-subscribe panel-subscribe-narrow panel-subscribe-light panel-subscribe-vert wow fadeInRight">
+          <div class="panel-body">
+            <div class="media text-center"> <img src="imgs/email.png" alt="">
+              <div class="media-body">
+                <h3>About Me</h3>
+                特别说明：本程序售卖仅限仪器数据处理部分，部分功能基于Surfer,Voxler库开发，若使用该部分功能请安装相关正版软件，若因版权问题引起的法律纠纷使用者自行负责。 </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+	
+	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center section-intro">
+        <hr/>
+        <h2><img src="imgs/keenstudio-logo.png" alt=""/></h2>
+        Copyright © 2024 KEEN0003  All rights reserved. <a href="#" target="_blank">KEEN0003</a> <a href="tencent://message/?uin=120090039&Site=&Menu=yes" class="btn-social btn-twitter btn-sm"><i class="tn-email"></i></a> <a href="#" class="btn-social btn-facebook btn-sm"><i class="tn-image"></i></a> <a href="#" class="btn-social btn-google-plus btn-sm"><i class="tn-google"></i></a> <a href="#" class="btn-social btn-vimeo btn-sm"><i class="tn-angle-down"></i></a> <a href="#" class="btn-social btn-dropbox btn-sm"><i class="tn-dropbox"></i></a> </div>
+    </div>
+  </div>
+  <br/>
+  <br/>
+</footer>
+<script src="js/jquery-2.1.3.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.sticky.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script src="js/site.js"></script>
 </body>
-
 </html>
-<!/doctype>
