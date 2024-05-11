@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<Updater>
+
+<UpdateInfo>
+
+<URLAddresURL>http://www.dkgeo.cn/keen/</URLAddresURL>
+
+<UpdateName>PRETEM_Analysis_SystemV2.4.508.153_setup.exe</UpdateName>
+
+<UpdateTimeDate>2024-05-08</UpdateTimeDate>
+
+<VersionNum>2.4.508.153</VersionNum> 
+
+<UpDateLog>更新内容，建议更新此版本：
+V2.4.508.153 新版本
+1.优化工程文件保存失效
+2.优化滤波缩放显示失效
+3.优化网格预览图
+
+历史版本
+V2.4.506.125 新版本
+1.优化测点滤波算法，滤波更流畅
+2.优化异常数据显示溢出问题
+V2.4.115.147 更新日期 2024-02
+1.优化注册接口bug
+2.取消管理员安装模式（若非管理员运行，注意勿安装在系统C盘）
+V2.4.115.126 更新日期 2024-01
+1.*新增内置绘图接口，无需另外安装Surfer和Voxler，解决多版本Surfer冲突问题
+2.优化打开分析系统后无法打开dat和srf文件
+3.*新增全区均方误差计算
+4.其他交互操作优化
+V2.4.100.103 更新日期 2024-01
+1.新增三维异常体积显示
+2.优化三维探测角度自定义
+Read More...
+</UpDateLog> 
+
+</UpdateInfo>
+
+</Updater>
